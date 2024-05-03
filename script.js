@@ -8,7 +8,7 @@ let notes = [];
 
 
 addNoteButton.addEventListener('click', () => {
-  // Get the title and note values
+
   const title = noteTitleInput.value.trim();
   const note = noteTextInput.value.trim();
 
